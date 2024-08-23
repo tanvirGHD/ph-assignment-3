@@ -35,6 +35,73 @@
 </head>
 <body class="font-manrope ">
   <!-- overflow-x-hidden -->
-      
+  <header class="bg-gradient-to-t from-gray-50 to-gray-200 pb-16 md:pb-20 lg:pb-24">
+    <!-- Navigation -->
+    <nav class="w-10/12 mx-auto  h-40">
+      <div class="navbar">
+        <div class="navbar-start space-x-3">
+          <a href=""><i class="fa-solid fa-arrow-right -rotate-45 bg-primary p-3 rounded-full"></i></a>
+          <a href=""><p class="text-3xl font-bold"> Rinterio</p></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-black font-bold" >Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>     
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-4">
+          <a href=""><i class="fa-solid fa-magnifying-glass p-3 bg-white rounded-full hidden lg:block"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping p-3 bg-white rounded-full hidden lg:block"></i></a>
+          <a class="btn bg-primary rounded-2xl hidden lg:block font-bold">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black p-3 rounded-full text-white ml-4 mt-1"></i></a>
+        </div>
+        <!-- Mobile device dropdown -->
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>     
+            <li><a>Contact Us</a></li>
+            <a href=""><i class="fa-solid fa-magnifying-glass p-3 bg-white rounded-full"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping p-3 bg-white rounded-full"></i></a>
+            <a class="btn bg-primary rounded-2xl">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black p-3 rounded-full text-white"></i> </a>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!-- Hero-Section -->
+    <section class="w-10/12 mx-auto">
+      <!-- Hero images -->
+      <div class="flex justify-center items-center">
+        <img src="./assets/banner.png" alt="">
+      </div>
+      <!-- Hero content -->
+      <div class="text-center space-y-6">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mt-16">A barn house of this design has a <br> striking appearance</h1>
+        <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+        <button class="btn bg-secondary rounded-3xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-primary p-3 rounded-full"></i> </button>
+      </div>
+    </section>
+  </header>
 </body>
 </html>
